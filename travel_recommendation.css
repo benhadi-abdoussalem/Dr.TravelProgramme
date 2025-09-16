@@ -1,0 +1,175 @@
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: #222;
+  color: #fff;
+  padding: 10px 30px;
+}
+
+nav img {
+  margin-right: 15px;
+  height: 40px; 
+  width: auto; 
+}
+
+nav h1 {
+  margin-right: 40px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #fff;
+}
+
+.nav-search {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 4px;
+  padding: 2px;
+}
+
+.nav-search input {
+  padding: 5px 10px;
+  border-radius: 4px 0 0 4px;
+  border: none;
+  outline: none;
+}
+
+.nav-search button {
+  padding: 5px 15px;
+  border: none;
+  background: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+  margin-left: -1px; 
+}
+
+#btnClear {
+  background: #dc3545;
+  border-radius: 0 4px 4px 0;
+  margin-left: 2px;
+}
+.center-container-home {
+  opacity: 0.9;
+  margin: 20px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 8px;
+}
+
+p {
+  font: optional;
+  font-weight: 700;
+  line-height: 0.50
+  margin-bottom 20px;
+}
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.team-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.team-card {
+  background: rgba(245,245,245,0.5);
+  padding: 20px;
+  border-radius: 10px;
+  width: 220px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.team-img {
+  width: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.role {
+  display: inline-block;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.role.ceo {
+  background: #3b5998;
+}
+
+.role.team-lead {
+  background: #007bff;
+}
+
+.role.delivery-head {
+  background: #28a745;
+}
+.center-container {
+ display: flex;
+ flex-direction: column;
+ align-items: justify;
+ justify-content: justify;
+ min-height: 30vh;
+ text-align: justify;
+}
+.center-container form {
+ display: flex;
+ flex-direction: column;
+ width: 00px;
+}
+.center-container form > * {
+ margin-bottom: 10px 0;
+}
+.center-container button {
+ width: 100px;
+ padding: 10px;
+ background-color: #007bff;
+ color: white;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+}
+body {
+  background-image: url('./images/travel_background_image.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+#recommendationbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+} 

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dr.TravelProgramme</title>
+    <link rel="stylesheet" href="./travel_recommendation.css" />
+  </head>
+  <body>
+    <nav>
+      <img
+        src=".\images\drtravelprogramme-high-resolution-logo.png"
+        alt="Dr.TravelProgramme Logo"
+        style="height: 40px; vertical-align: middle" />
+      <h1>Dr.TravelProgramme</h1>
+      <ul>
+        <li><a href="./index.html" id="home">Home</a></li>
+        <li><a href="./Contact_Us.html" id="Contact_Us">Contact Us</a></li>
+        <li><a href="./About_Us.html" id="About_Us">About Us</a></li>
+      </ul>
+      <div class="nav-search">    
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Enter a Destination or Keyword" />
+        <button id="btnSearch">Search</button>
+        <button id="btnClear">Clear</button>
+      </div>
+    </nav>
+<div class = "center-container">
+    <h1>Contact Us</h1>
+    <p>
+      Feel free to contact us to know more about your conditions and for
+      treatment methods.
+    </p>
+
+    <form id="contactForm">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div>
+        <label for="condition">Condition</label>
+        <input type="text" id="condition" name="condition" required />
+      </div>
+      <div>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit" onclick="thankyou()">Submit</button>
+    </form>
+    </div>
+    <script>
+      function thankyou() {
+        alert("Thank you for contacting us!");
+      }
+    </script>
+  </body>
+</html>
