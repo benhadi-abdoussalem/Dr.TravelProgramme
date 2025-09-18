@@ -1,6 +1,8 @@
 // ...existing code...
-
-fetch(./travel_recommendation.json)
+function recommendations(event) {
+  event.preventDefault();
+  cosnt = apiurl = "./travel_recommendation.json";
+ fetch(apiurl)
   .then((response) => {
     if (!response.ok) {
       throw new Error("Network response was not ok");
@@ -14,4 +16,4 @@ fetch(./travel_recommendation.json)
     console.error("Error fetching data:", error);
   });
 
-// ...existing code...
+  return [
