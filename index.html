@@ -20,40 +20,46 @@
       <div class="nav-search">
         <input
           type="text"
-          id="searchInput"
+          ,
+          id="userInput"
+          ,
           placeholder="Enter a Destination or Keyword" />
-        <button id="btnSearch">Search</button>
+        <button id="btnSearch"type="submit" onclick="recommendation(event)" >Search</button>
         <button id="btnClear">Clear</button>
       </div>
     </nav>
-    <div class ="center-container-home">
-    <h1>Dr.travelProgramme</h1>
-    <h1>Your Prescription for a Perfect Getaway</h1>
-    <p>
-      Travel as a form of wellness. We acts as a personal "travel doctor," diagnosing a client's
-      specific needs and prescribing a curated, wellness-focused trip.<br />
-    </p>
-    <p>
-      Clients identify their travel "ailment" => We  generate a personalized travel prescription
-      a detailed itinerary designed to rejuvenate their mind, body, and spirit.<br />
-    </p>
-    <p>
-      Each prescription comes with a full "treatment plan," including packing tips, cultural guides, and wellness activities to
-      ensure a seamless and enriching journey.<br />
-    </p>
-   
-    <h2>Key Differentiators:</h2>
-    <p>
-      - Holistic & Personalized: We move beyond traditional travel planning by
-      integrating wellness principles into every step. <br />
-    </p>
-    <p>
-      - Focus on Transformation: Our goal is for clients to return not just
-      rested, but genuinely transformed and able to carry the benefits of their
-      trip into their daily life.
-    </p>
-    </div> 
-    <button id="recommendationbtn" type="submit" onclick="recommendation()">recommendation</button> 
+    <div class="center-container-home">
+      <h1>Dr.travelProgramme</h1>
+      <h1>Your Prescription for a Perfect Getaway</h1>
+      <p>
+        Travel as a form of wellness. We acts as a personal "travel doctor,"
+        diagnosing a client's specific needs and prescribing a curated,
+        wellness-focused trip.<br />
+      </p>
+      <p>
+        Clients identify their travel "ailment" => We generate a personalized
+        travel prescription a detailed itinerary designed to rejuvenate their
+        mind, body, and spirit.<br />
+      </p>
+      <p>
+        Each prescription comes with a full "treatment plan," including packing
+        tips, cultural guides, and wellness activities to ensure a seamless and
+        enriching journey.<br />
+      </p>
+
+      <h2>Key Differentiators:</h2>
+      <p>
+        - Holistic & Personalized: We move beyond traditional travel planning by
+        integrating wellness principles into every step. <br />
+      </p>
+      <p>
+        - Focus on Transformation: Our goal is for clients to return not just
+        rested, but genuinely transformed and able to carry the benefits of
+        their trip into their daily life.
+      </p>
+    </div>
+    <buttonid="recommendationbtn">recommendation </buttonid=>
     <script src="./travel_recommendation.js"></script>
+    <div id="recommendationsDiv"></div>
   </body>
 </html>

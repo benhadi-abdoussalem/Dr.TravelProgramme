@@ -75,7 +75,7 @@ p {
   font: optional;
   font-weight: 700;
   line-height: 0.50
-  margin-bottom 20px;
+  margin-bottom: 20px;
 }
 h1 {
   color: #333;
@@ -173,3 +173,31 @@ body {
   border-radius: 5px;
   cursor: pointer;
 } 
+#recommendationsDiv {
+  margin: 30px auto 0 auto;
+  padding: 20px;
+  max-width: 400px;
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  text-align: center;
+  display: none; /* Will be shown by JS when needed */
+}
+
+#recommendationsDiv img {
+  border-radius: 8px;
+  margin-bottom: 15px;
+  max-width: 100%;
+  height: auto;
+}
+
+#recommendationsDiv h2 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+#recommendationsDiv p {
+  color: #333;
+  font-size: 1.05em;
+  margin-bottom: 0;
+}

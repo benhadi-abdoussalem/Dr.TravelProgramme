@@ -22,7 +22,7 @@
       "cities": [
         {
           "name": "Tokyo, Japan",
-          "imageUrl": "./images/tokyo.jpg",
+          "imageUrl": "./images/tokyo.jpeg",
           "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
         },
         {
@@ -43,7 +43,7 @@
         },
         {
           "name": "São Paulo, Brazil",
-          "imageUrl": "./images/São_Paulo.jpg",
+          "imageUrl": "./images/São_Paulo.jpeg",
           "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
         }
       ]
@@ -67,7 +67,7 @@
     {
       "id": 1,
       "name": "Bora Bora, French Polynesia",
-      "imageUrl": "./images/Bora_Bora.jpg",
+      "imageUrl": "./images/Bora_Bora.jpeg",
       "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
     },
     {
